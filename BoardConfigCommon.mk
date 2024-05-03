@@ -24,6 +24,7 @@ COMMON_PATH := device/xiaomi/sm6150-common
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
 TARGET_OTA_ADDITIONAL_OPTIONS := \
+    --enable_zucchini=true \
     --enable_lz4diff=true \
     --enable_vabc_xor=true
 
