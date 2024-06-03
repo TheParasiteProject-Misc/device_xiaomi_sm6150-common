@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Signing build
+TARGET_BUILD_FULLY_SIGN := true
+
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Setup dalvik vm configs
