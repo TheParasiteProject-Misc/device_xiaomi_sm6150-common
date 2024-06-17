@@ -160,6 +160,7 @@ TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_xiaomi
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # Sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 TARGET_SEPOLICY_DIR := msmsteppe
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
